@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RestController
 public class ClientController {
 	
-	@GetMapping("")
+	@GetMapping("/")
 	public String springBootStatus() {
 		return "SpringBoot running";
 	}
